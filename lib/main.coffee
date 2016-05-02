@@ -59,7 +59,7 @@ module.exports =
               foundPeriod = true
             currentLine.push(segment)
             currentLineLength += segment.length
-        lineNumber += 1
+          lineNumber += 1
       if currentLineLength > 0
         lines.push(linePrefix + currentLine.join(''))
 
