@@ -1,0 +1,21 @@
+{
+  "name": "natural-autoflow",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Natural Autoflow.",
+  "repository": "https://github.com/dragly/natural-autoflow",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "devDependencies": {
+    "coffee-script": "1.7.0",
+    "coffeelint": "^1.10.1",
+    "request": "^2.34.0",
+    "season": "^5.0.2",
+    "underscore-plus": "^1.0.6"
+  },
+  "dependencies": {
+    "underscore-plus": "^1.6.6"
+  }
+}
