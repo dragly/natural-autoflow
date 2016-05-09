@@ -1,7 +1,7 @@
 {
   "name": "natural-autoflow",
   "main": "./lib/main",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Improved autoflow by breaking lines at punctuation.",
   "repository": "https://github.com/dragly/natural-autoflow",
   "license": "MIT",
