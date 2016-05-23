@@ -1,12 +1,13 @@
 # Natural autoflow #
 
-Natural autoflow is an Atom package that provides a more natural autoflow
-than the official packge.
+Natural autoflow is an Atom package that provides a more natural flow of text in
+comparison to the official autoflow package.
 It ensures that no line is longer than the user defined line length by breaking
 at periods, semicolons, question marks or exclamation marks.
 It also breaks at commas when the comma is close to max line length.
-This makes it easier to diff and merge files and makes the package suitable
-for writes who are collaborating on LaTeX, Markdown, Doconce and other files.
+This makes it easier to diff and merge files and makes the package suitable for
+authors who are collaborating on LaTeX, Markdown,
+Doconce, and similar formats.
 
 The default keybinding is `shift+ctrl+alt+q` on Linux and Windows and 
 `shift+ctrl+cmd+q` on Mac.
