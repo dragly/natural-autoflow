@@ -51,7 +51,7 @@ module.exports =
             if foundPeriod
               wrapNext = true
             # wrap next segment if this contains a strong delimiter
-            if /(\.|\?|\!|\:|\;|\])$/.test(segment) and not insideComment
+            if /(\w{2,}\.|\?|\!|\:|\;|\])$/.test(segment) and not insideComment
               foundPeriod = true
             # wrap next segment if this contains a weak delimiter and is past half
             # the length of the line
